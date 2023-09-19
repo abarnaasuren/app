@@ -22,5 +22,3 @@ npm install react-icons
 npm install formik
 npm install axios
 
-Netlify deploy:
-https://6509ac8d636e3d05a71f88a7--spectacular-puffpuff-a14ad7.netlify.app
