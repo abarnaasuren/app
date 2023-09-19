@@ -1,0 +1,52 @@
+.dashboard-container {
+    display: flex; /* Use flexbox to arrange the items as columns */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .dashboard-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-content {
+    width: 97.6%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    background-color: #ddd;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-link {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .dashboard-content {
+      width: 95%;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
